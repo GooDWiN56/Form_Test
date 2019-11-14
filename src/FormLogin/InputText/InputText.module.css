@@ -1,0 +1,37 @@
+.input_wrap{
+    margin-bottom: 15px;
+}
+.input_wrap input{
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    color: #c8c8c9;
+    padding: 10px 15px 10px 50px;
+    border-bottom: 1px solid #c8c8c9;
+    letter-spacing: 1px;
+    position: relative;
+    background: url(/static/media/mail.b0a2d94a.svg) no-repeat 10px 4px;
+    background-size: 30px 30px;
+    transition: all 0.3s ease-in-out;
+}
+.input_wrap input[type="password"]{
+    background-image: url(./../../img/password.svg);
+}
+.input_wrap input:focus{
+    color: #1e8cbf;
+    border-color: #1e8cbf;
+    background-image: url(./../../img/mail_f.svg);
+}
+.input_wrap input[type="password"]:focus{
+    background-image: url(./../../img/password_f.svg);
+}
+@media only screen and (max-width: 1024px) {
+    .input_wrap{
+        width: 48%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .input_wrap{
+        width: 100%;
+    }
+}

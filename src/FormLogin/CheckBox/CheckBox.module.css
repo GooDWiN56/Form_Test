@@ -1,0 +1,36 @@
+.check_wrap{
+    width: 48%;
+    text-align: center;
+}
+#check {
+    display:none;
+}
+#check + label{
+    position: relative;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #282828;
+    cursor: pointer;
+}
+#check + label::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    width:15px;
+    height:15px;
+    border:1px solid #282828;
+    vertical-align:middle;
+    background-position: center;
+    background-size: contain;
+    cursor:pointer;
+}
+#check:checked + label,
+#check + label:hover{color: #1e8cbf}
+#check + label:hover::before{
+    border-color: #1e8cbf;}
+#check:checked + label::before{
+    border-color: #1e8cbf;
+    background-image:url(./../../img/check.svg);
+}

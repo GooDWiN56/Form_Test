@@ -1,0 +1,22 @@
+.button_wrap{
+    width: 48%;
+    text-align: center;
+}
+.button{
+    padding: 10px 15px;
+    background: #1a82b3;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: none;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    text-transform: uppercase;
+}
+.button:hover{
+    background: #1e8cbf;
+}
+.button:active{
+    box-shadow: inset 0px 0px 5px rgba(40, 40, 40, 0.4);
+}

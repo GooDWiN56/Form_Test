@@ -1,0 +1,54 @@
+.from_wrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    padding: 45px;
+    box-shadow: 0px 0px 10px rgba(41, 41, 41, 0.5);
+    width: 40%;
+    max-width: 325px;
+}
+.from_wrap form{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+@media only screen and (max-width: 1024px) {
+    .from_wrap{
+        width: 80%;
+        max-width: 650px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .from_wrap{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        border-radius: 0;
+        left: 0;
+        top: 0;
+        transform: translate(0,0);
+    }
+    .from_wrap form{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+    }
+
+}
