@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5aa1c0a8.chunk.css",
+    "main.js": "/static/js/main.c65ac0bd.chunk.js",
+    "main.js.map": "/static/js/main.c65ac0bd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e7ffe6e5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e7ffe6e5.js.map",
+    "static/js/2.12f5cc7b.chunk.js": "/static/js/2.12f5cc7b.chunk.js",
+    "static/js/2.12f5cc7b.chunk.js.map": "/static/js/2.12f5cc7b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f77e21febd2d2a0c343acf981b8e0317.js": "/precache-manifest.f77e21febd2d2a0c343acf981b8e0317.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5aa1c0a8.chunk.css.map": "/static/css/main.5aa1c0a8.chunk.css.map",
+    "static/media/CheckBox.module.css": "/static/media/check.62157646.svg",
+    "static/media/InputText.module.css": "/static/media/password_f.ed121d88.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7ffe6e5.js",
+    "static/js/2.12f5cc7b.chunk.js",
+    "static/css/main.5aa1c0a8.chunk.css",
+    "static/js/main.c65ac0bd.chunk.js"
+  ]
+}
